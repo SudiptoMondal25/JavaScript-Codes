@@ -8,10 +8,10 @@ const isLoggedIn = false;
 const temp = null;
 let userEmail;
 
-const id = Symbol('321')
+const id = Symbol('321')                            //Symbol
 const anotherId = Symbol('321')
 
-console.log(id === anotherId);
+console.log(id === anotherId);                      //false
 
 const bigNumber = 87423740273407203847928n          //BigInt
 
@@ -35,3 +35,30 @@ const myFunction = function() {
 //To know the datatypes
 
 console.log(typeof myObj);
+
+// *********************************************************************
+
+// MEMORY
+// Stack (Primitive), Heap (Non - Primitive)
+// In stack the copy is modified every time. The main reference is not modified in stack
+let myVarsity = "United International University"
+let anothervarsity = myVarsity              
+anothervarsity = "XYZ University"
+
+console.log(myVarsity);
+console.log(anothervarsity);
+
+
+// Heap
+
+let userOne = {
+    name: "user1",
+    email: "user1@gmail.com"
+}
+
+let userTwo = userOne;
+
+userTwo.name = "user2"        //Modifying the reference valu of userOne
+
+console.log(userOne.name);
+console.log(userTwo.name);
