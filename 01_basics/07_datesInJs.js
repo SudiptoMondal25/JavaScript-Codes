@@ -1,9 +1,10 @@
 //Dates
 
 let myDate = new Date()
+console.log(myDate);
 console.log(myDate.toString());
-// console.log(myDate.toDateString());
-// console.log(myDate.toLocaleDateString);
+console.log(myDate.toDateString());
+console.log(myDate.toLocaleDateString());
 // console.log(myDate.toISOString());
 // console.log(myDate.toTimeString);
 // console.log(myDate.toLocaleTimeString);
@@ -22,8 +23,8 @@ let myTimeStamp = Date.now()
 // console.log(Math.floor(Date.now()/1000));
 
 let newDate = new Date()
-console.log(newDate.getMonth() + 1);
-console.log(newDate.getDay() + 2);      //+2 for BD sytem. Week starts with Saturday
+// console.log(newDate.getMonth() + 1);
+// console.log(newDate.getDay() + 2);      //+2 for BD sytem. Week starts with Saturday
 
 
 newDate.toLocaleString('default', {
