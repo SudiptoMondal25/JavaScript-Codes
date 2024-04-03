@@ -17,7 +17,7 @@ const dcHeros = ["Superman", "Batman", "Flash"]
 
 console.log(Array.isArray("Sudipto"));
 console.log(Array.from("Sudipto"));
-console.log(Array.from({name: "Sudipto"}));
+console.log(Array.from({name: "Sudipto"}));         //interesting case. Give empty arrays if we don't mention the key type
 
 
 let score1 = 100
