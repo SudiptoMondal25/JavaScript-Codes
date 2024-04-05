@@ -75,11 +75,11 @@ const navbar = ({company}) => {
 navbar (company = "XYZ")
 
 //JSON
-{
-    "name": "Sudipto",
-    "email": "msudipto757@gmail.com",
-    "address": "Dhaka, Bangladesh"
-}
+// {
+//     "name": "Sudipto",
+//     "email": "msudipto757@gmail.com",
+//     "address": "Dhaka, Bangladesh"
+// }
 
 [
     {},
