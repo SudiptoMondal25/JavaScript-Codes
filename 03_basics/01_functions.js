@@ -15,7 +15,7 @@ function addTwoNumbers(number1, number2) {
 // const result = addTwoNumbers(4, 3)
 // console.log("Result: ", result);
 
-function loginUserMessage(username) {
+function loginUserMessage(username = "Joe") {
     // if(username){
     //     return `${username} just logged in`
     // }
@@ -30,4 +30,10 @@ function loginUserMessage(username) {
     return `${username} just logged in`
 }
 
-console.log(loginUserMessage("Sudipto"));
+// console.log(loginUserMessage("Sudipto"));
+
+function calculateCartPrice(...num1){      //rest operator (...)
+    return num1;
+}
+
+console.log(calculateCartPrice(200, 400, 300));
